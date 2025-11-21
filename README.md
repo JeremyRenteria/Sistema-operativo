@@ -86,7 +86,10 @@ SO>
 🏁 TERMINADO: Finalizó su ejecución
 
 📈 Características Técnicas
-Algoritmo de planificación: Por prioridades (menor número = mayor prioridad)
+
+Algoritmo de planificación: 
+
+Por prioridades (menor número = mayor prioridad)
 
 Gestión de memoria: Paginación simulada con swapping
 
@@ -95,6 +98,7 @@ Sincronización: Colas separadas para procesos listos y bloqueados
 Manejo de recursos: Asignación y liberación con verificación de disponibilidad
 
 🔄 Flujo de Ejecución
+
 Los procesos se crean y asignan a RAM o memoria virtual
 
 Procesos en RAM entran a la cola de listos
