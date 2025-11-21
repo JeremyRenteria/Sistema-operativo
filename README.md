@@ -60,17 +60,16 @@ Comandos disponibles:
 
 SO> 
 
-⌨️ Comandos Disponibles
-Comando	Uso	Descripción
-crear	crear <nombre> <prioridad> [tiempo]	Crea un nuevo proceso
-eliminar	eliminar <pid>	Elimina un proceso por PID
-listar	listar	Muestra todos los procesos
-recursos	recursos	Lista los recursos del sistema
-asignar	asignar <pid> <recurso>	Asigna recurso a proceso
-ejecutar	ejecutar	Ejecuta un ciclo de planificación
-auto	auto <n>	Ejecuta n ciclos automáticamente
-stats	stats	Muestra estadísticas del sistema
-salir	salir	Termina el programa
-
+| Comando | Uso | Descripción |
+|---|---|---|
+| crear | crear <nombre> <prioridad> [tiempo] | Crea un nuevo proceso |
+| eliminar | eliminar <pid> | Elimina un proceso por PID |
+| listar | listar | Muestra todos los procesos |
+| recursos | recursos | Lista los recursos del sistema |
+| asignar | asignar <pid> <recurso> | Asigna recurso a proceso |
+| ejecutar | ejecutar | Ejecuta un ciclo de planificación |
+| auto | auto <n> | Ejecuta n ciclos automáticamente |
+| stats | stats | Muestra estadísticas del sistema |
+| salir | salir | Termina el programa |
 
    
