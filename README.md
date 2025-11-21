@@ -60,6 +60,8 @@ Comandos disponibles:
 
 SO> 
 
+⌨️ Comandos Disponibles
+
 | Comando | Uso | Descripción |
 |---|---|---|
 | crear | crear <nombre> <prioridad> [tiempo] | Crea un nuevo proceso |
@@ -72,4 +74,50 @@ SO>
 | stats | stats | Muestra estadísticas del sistema |
 | salir | salir | Termina el programa |
 
-   
+📊 Estados de los Procesos
+🆕 NUEVO: Proceso recién creado
+
+✅ LISTO: En cola esperando ejecución
+
+⚡ EJECUTANDO: Actualmente en CPU
+
+🚫 BLOQUEADO: Esperando por recursos
+
+🏁 TERMINADO: Finalizó su ejecución
+
+📈 Características Técnicas
+Algoritmo de planificación: Por prioridades (menor número = mayor prioridad)
+
+Gestión de memoria: Paginación simulada con swapping
+
+Sincronización: Colas separadas para procesos listos y bloqueados
+
+Manejo de recursos: Asignación y liberación con verificación de disponibilidad
+
+🔄 Flujo de Ejecución
+Los procesos se crean y asignan a RAM o memoria virtual
+
+Procesos en RAM entran a la cola de listos
+
+El planificador selecciona el proceso de mayor prioridad
+
+Se ejecuta por quantum de tiempo
+
+Los procesos pueden bloquearse por recursos o terminar
+
+La memoria se rebalancea automáticamente
+
+🤝 Contribución
+¡Las contribuciones son bienvenidas! Para contribuir:
+
+Haz un fork del proyecto
+
+Crea una rama para tu feature (git checkout -b feature/AmazingFeature)
+
+Commit tus cambios (git commit -m 'Add some AmazingFeature')
+
+Push a la rama (git push origin feature/AmazingFeature)
+
+Abre un Pull Request
+
+
